@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<!--
+   Industrious by TEMPLATED
+   templated.co @templatedco
+   Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>설문 - LOL MBTI</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<header id="header">
+		<a class="logo" href="./">LOL MBTI</a>
+	</header>
+	<!-- Heading -->
+	<div id="heading" style="height : 30rem !important; min-height : 30rem">
+		<h1>MBTI 유형 분석을 위한 설문 조사</h1>
+	</div>
+
+
+	<!-- Main -->
+	<section id="main" class="wrapper">
+		<div class="inner">
+			<header class="special">
+				<h2>고민하지 말고 자신이 플레이 할 때의 경험적 행동에 비춰 대답해주세요!</h2>
+			</header>
+			<div class="content">
+
+				<form action="http://localhost:3000/question_process" method="POST" name="question_form">
+
+					<div>
+						<h3>1. 본인은 캐리형 챔피언, 게임은 바야흐로 40분… 지고 있는 상황이지만 가망은 있다. 당신이라면?</h3>
+
+
+						<input type="radio" id="ext1_1" name="ext1" value="8">
+						<label for="ext1_1">내가 더 집중하면 이길 거 같은데? 집중해서 캐리해보자.</label>
+						<br>
+						<input type="radio" id="ext1_3" name="ext1" value="2">
+						<label for="ext1_3">ㅈㄱㅊㅇ ㅈㅈ 저런 애 데리고는 못이긴다. 시간 아까우니 서렌친다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>2. 어떤 게 본인에게 더 편한가요?</h3>
+
+
+						<input type="radio" id="sen1_1" name="sen1" value="8">
+						<label for="sen1_1">전체 상황을 보고 직접 오더하기</label>
+						<br>
+						<input type="radio" id="sen1_3" name="sen1" value="2">
+						<label for="sen1_3">내 플레이에만 집중하기</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>3. 본인이 잘했을 때 당신의 반응은?</h3>
+
+
+						<input type="radio" id="thi1_1" name="thi1" value="8">
+						<label for="thi1_1">스스로 칭찬한다.</label>
+						<br>
+						<input type="radio" id="thi1_3" name="thi1" value="2">
+						<label for="thi1_3">"아~ 더 잘할 수 있었는데.." 하며 아쉬워한다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>4. 눈 앞에 부시가 있다. 궁금한데… 어떡하지?</h3>
+
+
+						<input type="radio" id="jud1_1" name="jud1" value="8">
+						<label for="jud1_1">이건 못참지 ㅋㅋ 바디체크한다.</label>
+						<br>
+						<input type="radio" id="jud1_3" name="jud1" value="2">
+						<label for="jud1_3">굳이 들어갈 필요 없는데? 안들어간다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>5. 픽 창에서 우리 탑이 10판 승률 10%인 챔피언을 고른다. 어떻게 하지?</h3>
+
+
+						<input type="radio" id="ext2_1" name="ext2" value="8">
+						<label for="ext2_1">닷지한다.</label>
+						<br>
+						<input type="radio" id="ext2_2" name="ext2" value="4">
+						<label for="ext2_2">어차피 이길 판은 이긴다. 그냥 한다.</label>
+						<br>
+						<input type="radio" id="ext2_3" name="ext2" value="2">
+						<label for="ext2_3">바로 채팅친다. “님 딴 거 하면 안됨???</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>6. 본인은 서포터다. 2레벨에 적 바텀듀오와 싸우다 원딜이 힐을 안써줘서 죽었는데 혼자 힐쓰고 따라 죽는다. 어떻게 할까?</h3>
+
+
+						<input type="radio" id="sen2_1" name="sen2" value="7">
+						<label for="sen2_1">답답하지만 이겨야 하니까 참는다.</label>
+						<br>
+						<input type="radio" id="sen2_3" name="sen2" value="2">
+						<label for="sen2_3">힐 핑 6번 찍는다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>7. 본인은 아무무다. 1렙부터 적 그레이브즈에게 카정을 당해서 너무 분하다. 중반에 적 레드가 있는걸 확인했다. 위험할지도 모르는 상황! 당신이라면?</h3>
+
+
+						<input type="radio" id="thi2_1" name="thi2" value="8">
+						<label for="thi2_1">그브레드 딱 대 ㅋㅋ 일단 먹는다.</label>
+						<br>
+						<input type="radio" id="thi2_3" name="thi2" value="2">
+						<label for="thi2_3">여기서 짤리면 안된다. 위험하니 얼씬도 하지 않는다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>8. 친구랑 봇듀오로 이즈유미를 하기로 했다. 친구가 유미를 골랐는데... 갑자기 야스오가 너무 하고싶다. 어떻게 하지?</h3>
+
+
+						<input type="radio" id="jud2_1" name="jud2" value="8">
+						<label for="jud2_1">어차피 재미로 하는건데~ 친구한테 답정너로 물어보고 야스오 한다.</label>
+						<br>
+						<input type="radio" id="jud2_3" name="jud2" value="2">
+						<label for="jud2_3">하고싶지만 참고 약속했던 픽한다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>9. 당신은 어떨 때 더 기분이 좋나요?</h3>
+
+
+						<input type="radio" id="ext3_1" name="ext3" value="8">
+						<label for="ext3_1">힘든 게임 직접 캐리해서 이겼을 때</label>
+
+						<br>
+						<input type="radio" id="ext3_2" name="ext3" value="2">
+						<label for="ext3_2">팀운 좋아서 쉽게 이겼을 때</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>10. 0/4/2 정글러와 0/3/0 미드가 서로의 부모님 안부를 물으며 싸우기 시작한다. 근데 조합이 괜찮아서 이길만한 게임이다. 당신이라면?
+						</h3>
+
+
+						<input type="radio" id="sen3_1" name="sen3" value="8">
+						<label for="sen3_1">충분히 이길만하다! 중재하고 팀원 멘탈을 잡아준다.</label>
+						<br>
+						<input type="radio" id="sen3_2" name="sen3" value="4">
+						<label for="sen3_2">그냥 내비둔다.</label>
+						<br>
+						<input type="radio" id="sen3_3" name="sen3" value="2">
+						<label for="sen3_3">이 판도 망했네 ㅋㅋㅋ "can't win 15 gogo."</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>11. 티어를 올리려고 게임을 시작했는데 어느새 5연패… 당신이라면?</h3>
+
+
+						<input type="radio" id="thi3_1" name="thi3" value="8">
+						<label for="thi3_1">복구해야된다! 바로 큐 돌린다.</label>
+						<br>
+						<input type="radio" id="thi3_3" name="thi3" value="2">
+						<label for="thi3_3">안되는 날이다. 그만 한다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<div>
+						<h3>12. 본인은 레드팀 탑 라이너다. 리쉬를 해주고 올라가는데 적 탑이 삼거리 부시에서 반갑게 맞아준다. 어떻게 하지?</h3>
+
+
+						<input type="radio" id="jud3_1" name="jud3" value="8">
+						<label for="jud3_1">날 때려? 뒤질때까지 싸운다.</label>
+						<br>
+						<input type="radio" id="jud3_3" name="jud3" value="2">
+						<label for="jud3_3">짜증나지만 참고 뺀다.</label>
+						<br>
+						<hr>
+					</div>
+
+					<input type="button" value="설문제출" class="primary" style="margin-left:40%; width : 20%"
+						onclick="radio_check()">
+				</form>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript">
+		var ext = new Array(document.getElementsByName("ext1"),
+			document.getElementsByName("ext2"),
+			document.getElementsByName("ext3"));
+
+		var sen = new Array(document.getElementsByName("sen1"),
+			document.getElementsByName("sen2"),
+			document.getElementsByName("sen3"));
+
+		var thi = new Array(document.getElementsByName("thi1"),
+			document.getElementsByName("thi2"),
+			document.getElementsByName("thi3"));
+
+		var jud = new Array(document.getElementsByName("jud1"),
+			document.getElementsByName("jud2"),
+			document.getElementsByName("jud3"));
+
+		var ext_check = new Array(false, false, false);
+		var sen_check = new Array(false, false, false);
+		var thi_check = new Array(false, false, false);
+		var jud_check = new Array(false, false, false);
+
+
+		function radio_check() {
+			var result_check = true;
+			for (let i = 0; i < 3; i++) { // ext 3문제
+				for (let j = 0; j < 3; j++) { // 문항별 보기 개수
+					if (i === 0 && j === 2) break;
+					if (i === 2 && j === 2) break;
+					if (ext[i][j].checked === true) {
+						ext_check[i] = true;
+						break;
+					}
+				}
+			}
+			for (let i = 0; i < 3; i++) { // sen 3문제
+				for (let j = 0; j < 3; j++) {
+
+					if (i === 0 && j === 2) break;
+					if (i === 1 && j === 2) break;
+					if (sen[i][j].checked === true) {
+						sen_check[i] = true;
+						break;
+					}
+				}
+			}
+			for (let i = 0; i < 3; i++) { // thi 3문제
+				for (let j = 0; j < 2; j++) {
+					if (thi[i][j].checked === true) {
+						thi_check[i] = true;
+						break;
+					}
+				}
+			}
+			for (let i = 0; i < 3; i++) { // jud 3문제
+				for (let j = 0; j < 2; j++) {
+					if (jud[i][j].checked === true) {
+						jud_check[i] = true;
+						break;
+					}
+				}
+			}
+			for (let i = 0; i < ext_check.length; i++) {
+				if (ext_check[i] === false) {
+					result_check = false;
+					break;
+				}
+			}
+			for (let i = 0; i < sen_check.length; i++) {
+				if (sen_check[i] === false) {
+					result_check = false;
+					break;
+				}
+			}
+			for (let i = 0; i < thi_check.length; i++) {
+				if (thi_check[i] === false) {
+					result_check = false;
+					break;
+				}
+			}
+			for (let i = 0; i < jud_check.length; i++) {
+				if (jud_check[i] === false) {
+					result_check = false;
+					break;
+				}
+			}
+			if (result_check === false) {
+				alert("모든 문항에 답해주세요.");
+				for (let i = 0; i < ext_check.length; i++) {
+					console.log(ext_check[i]);
+				}
+				for (let i = 0; i < sen_check.length; i++) {
+					console.log(sen_check[i]);
+				}
+				for (let i = 0; i < thi_check.length; i++) {
+					console.log(thi_check[i]);
+				}
+				for (let i = 0; i < jud_check.length; i++) {
+					console.log(jud_check[i]);
+				}
+			}
+			else {
+				document.question_form.submit();
+			}
+		}
+	</script>
+
+</body>
+
+</html>
