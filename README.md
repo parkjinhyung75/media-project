@@ -1,1 +1,1 @@
-# media-project-1
+# media-project
